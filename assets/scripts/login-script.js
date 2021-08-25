@@ -10,19 +10,19 @@
 * Membuat variabel loginFormElement untuk tampilan form.
 * @constant {HTMLElement}
 */
-const loginFormElement = document.querySelector('#loginForm');
+const loginFormElement = document.getElementById('#loginForm');
 
 /** 
 * Membuat variabel inputEmailElement untuk tampilan input email.
 * @constant {HTMLElement}
 */
-const inputEmailElement = document.querySelector('#inputEmail');
+const inputEmailElement = document.getElementById('#inputEmail');
 
 /** 
 * Membuat variabel inputPasswordElement untuk tampilan input password.
 * @constant {HTMLElement}
 */
-const inputPasswordElement = document.querySelector('#inputPassword');
+const inputPasswordElement = document.getElementById('#inputPassword');
 
 /** 
  * Membuat variabel expectedEmail untuk menyimpan informasi email sementara.
